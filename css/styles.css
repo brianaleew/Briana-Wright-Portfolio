@@ -21,9 +21,18 @@ body {
     
 }
 /* Navigation Bar */
-
+nav ul {
+    font-size: 25px;
+}
+#home-link {
+    color: rgb(52, 2, 107);
+}
 
 /* Home Page */
+.logo {
+    width: 100px;
+    
+}
 .section-title {
     text-align: center;
     margin: 30px;
@@ -112,9 +121,21 @@ body {
 
 /* Footer */
 .footer {
-    background-color: rgb(169, 185, 248); 
+    /* background-color: rgb(169, 185, 248);  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 80px;
     margin-top: 3rem;
     border-radius: 10px;
     text-align: center;
+}
+.footer a, p {
+    color: rgb(52, 2, 107);
+    font-size: 20px;
+    text-align: center;
+    
+}
+.footer p {
+    font-size: 15px;
 }
