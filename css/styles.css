@@ -1,3 +1,80 @@
-body {
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Tilt+Warp&display=swap');
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Tilt Warp', cursive; */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
+body {
+    font-family: 'Source Serif Pro', serif;
+}
+/* Navigation Bar */
+
+
+/* Home Page */
+.welcome {
+    background-image: url('/images/bg-home.jpg');
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.welcome-text {
+    text-align: center;
+    
+
+}
+.welcome-text-bg {
+    margin-top: 180px;
+    
+}
+#abstract {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(224, 169, 248); 
+}
+#concrete {
+    font-family: 'Tilt Warp', cursive;
+    color: rgb(229, 228, 226);
+    
+}
+#home-name {
+    font-size: 80px;
+    color: rgb(235, 205, 248); 
+}
+/* #home-title {
+    color: rgb(229, 228, 226);
+} */
+#home-description {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+/* About Section */
+.about {
+    height: 700px;
+    text-align: center;
+}
+.about-title {
+    text-align: center;
+    margin: 30px;
+}
+.about-profile {
+    width: 350px;
+    /* height: 380px; */
+    border-radius: 100%;
+   
+}
+.about-description {
+    justify-self: center;
+    align-self: center;
+
+}
+/* Contact Section */
+
+/* Project Section */
