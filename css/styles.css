@@ -10,10 +10,24 @@ font-family: 'Tilt Warp', cursive; */
 body {
     font-family: 'Source Serif Pro', serif;
 }
+/* Buttons */
+.btn-main {
+    background-color: rgb(224, 169, 248) ;
+    
+}
+.btn-main:hover {
+    color: white;
+    background-color: rgb(169, 190, 248) ;
+    
+}
 /* Navigation Bar */
 
 
 /* Home Page */
+.section-title {
+    text-align: center;
+    margin: 30px;
+}
 .welcome {
     background-image: url('/images/bg-home.jpg');
     width: 100%;
@@ -57,13 +71,10 @@ body {
 
 /* About Section */
 .about {
-    height: 700px;
+    height: 650px;
     text-align: center;
 }
-.about-title {
-    text-align: center;
-    margin: 30px;
-}
+
 .about-profile {
     width: 350px;
     /* height: 380px; */
@@ -78,3 +89,32 @@ body {
 /* Contact Section */
 
 /* Project Section */
+.projects {
+    background-image: url('/images/bg-projects.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    /* height: 1200px; */
+}
+.project-card {
+    margin: 30px;
+    box-shadow: rgb(240, 240, 240) 0px 25px 50px -12px;
+}
+.project-img {
+
+}
+.project-title {
+    color: rgb(52, 2, 107);
+    font-size: 30px;
+}
+.project-text {
+
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(169, 185, 248); 
+    height: 80px;
+    margin-top: 3rem;
+    border-radius: 10px;
+    text-align: center;
+}

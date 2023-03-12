@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/e28ce3c2c1.css" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
@@ -22,13 +23,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Me</a>
+                        <a class="nav-link" href="#contact">Contact Me</a>
                       </li>
                     </ul>
                 </div>
@@ -36,10 +37,9 @@
         </nav>
        
     </header>
-
+    <!-- Welcome -->
     <section>
         <div class="welcome container-fluid">
-            
             <span class="welcome-text-bg">
                 <h1 class="welcome-text" id="home-name">Briana Wright</h1>
                 <h4 class="welcome-text" id="home-title">Full-Stack Engineer </h4>
@@ -48,7 +48,9 @@
         </div>
 
     </section>
-    <h1 class="about-title">About Me</h1>
+
+    <!-- About -->
+    <h1 class="section-title" id="about">About Me</h1>
     <section>
         <div class="about container-lg">
             <div class="row">
@@ -63,8 +65,49 @@
 
         </div>
     </section>
+    <!-- Contact  -->
+    <h1 class="section-title" id="contact">Let's Connect</h1>
+    <section>
+        <div class="contact container-lg">
+            <!-- icon images for linkedin github and email go here (onclick to sites) -->
+            <h4>Find me on Github, LinkedIn, or Email</h4>
+           
+        </div>
+    </section>
+    <!-- Projects -->
+    <h1 class="section-title" id="projects">Projects</h1>
+    <section>
+        <div class="projects container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="card project-card" style="width: 30rem;">
+                        <img class="card-img-top project-img" src="images/doWell.png" alt="dowell project image">
+                        <div class="card-body">
+                          <h5 class="card-title project-title">doWell</h5>
+                          <p class="card-text">A full-stack MVC application that allows users to share their favorite products and wellness tips.</p>
+                          <a href="#" target="_blank" class="btn btn-main">View Site</a>
+                          <a href="https://github.com/brianaleew/Project-2" target="_blank" class="btn btn-main">GitHub Repo</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
     <footer>
-        <p>hi im footer</p>
+        <div class="footer container-fluid">
+            <a href="#">Back to Top</a>
+            <p>Briana Wright </p>
+        </div>
     </footer>
 
     <script src="js/app.js"></script>
