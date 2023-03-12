@@ -57,15 +57,88 @@ nav ul {
     margin-top: 180px;
     
 }
+/* ABSTRACT floating animation */
 #abstract {
     font-family: 'Indie Flower', cursive;
     color: rgb(224, 169, 248); 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
 }
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); } 
+}
+
+/* CONCRETE falling animation */
 #concrete {
     font-family: 'Tilt Warp', cursive;
     color: rgb(229, 228, 226);
+    display: flex;
     
 }
+.c {
+    opacity: 0;
+    animation: drop .4s linear forwards;
+
+}
+.o {
+    opacity: 0;
+    animation: drop .4s linear forwards .2s;
+    
+}
+.n {
+    opacity: 0;
+    animation: drop .4s linear forwards .4s;
+    
+}
+.c2 {
+    opacity: 0;
+    animation: drop .4s linear forwards .6s;
+    
+}
+.r {
+    opacity: 0;
+    animation: drop .4s linear forwards .8s;
+    
+}
+.e {
+    opacity: 0;
+    animation: drop .4s linear forwards 1s;
+    
+}
+.t {
+    opacity: 0;
+    animation: drop .4s linear forwards 1.2s;
+    
+}
+.e2 {
+    opacity: 0;
+    animation: drop .4s linear forwards 1.4s;
+    
+}
+@keyframes drop {
+    0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
+    5% {opacity: .7;}
+    50% {transform: translateY(0px) scaleY(1); opacity: 1;}
+    65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
+    75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
+    100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+  }
 #home-name {
     font-size: 80px;
     color: rgb(235, 205, 248); 
