@@ -214,7 +214,9 @@ nav ul {
 .project-text {
 
 }
-
+.card-text {
+    text-align: left;
+}
 /* Footer */
 .footer {
     /* background-color: rgb(169, 185, 248);  */
