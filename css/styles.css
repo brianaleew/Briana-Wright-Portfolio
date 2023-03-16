@@ -76,6 +76,85 @@ nav ul {
     margin-top: 10px;
     font-size: 50px;
 }
+
+
+
+/* About Section */
+.about {
+    height: 100%;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.about-profile {
+    width: 350px;
+    /* height: 380px; */
+    border-radius: 100%;
+   
+}
+.about-description {
+    justify-self: center;
+    align-self: center;
+
+}
+/* Contact Section */
+.contact {
+    text-align: center;
+}
+/* SkillSet */
+.frameworks {
+    text-align: center;
+}
+/* Project Section */
+#project {
+    margin-top: 70px;
+}
+.projects {
+    background-image: url('/images/bg-projects.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    
+    /* height: 1200px; */
+}
+.project-card {
+    margin: 30px;
+    box-shadow: rgb(240, 240, 240) 0px 25px 50px -12px;
+}
+.project-img {
+
+}
+.project-title {
+    color: rgb(52, 2, 107);
+    font-size: 30px;
+}
+.project-text {
+
+}
+.card-text {
+    text-align: left;
+}
+/* Footer */
+.footer {
+    /* background-color: rgb(169, 185, 248);  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+    margin-top: 6rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.footer a, p {
+    color: rgb(52, 2, 107);
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+.footer p {
+    font-size: 15px;
+}
+
 /* ANIMATIONS */
 
 /* ABSTRACT floating animation */
@@ -165,76 +244,3 @@ nav ul {
     75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
     100% {transform: translateY(0px) scaleY(1); opacity: 1;}
   }
-
-
-/* About Section */
-.about {
-    height: 100%;
-    text-align: center;
-    margin-bottom: 90px;
-}
-
-.about-profile {
-    width: 350px;
-    /* height: 380px; */
-    border-radius: 100%;
-   
-}
-.about-description {
-    justify-self: center;
-    align-self: center;
-
-}
-/* Contact Section */
-.contact {
-    text-align: center;
-}
-/* Project Section */
-#project {
-    margin-top: 70px;
-}
-.projects {
-    background-image: url('/images/bg-projects.jpg');
-    background-size: cover;
-    border-radius: 5px;
-    
-    /* height: 1200px; */
-}
-.project-card {
-    margin: 30px;
-    box-shadow: rgb(240, 240, 240) 0px 25px 50px -12px;
-}
-.project-img {
-
-}
-.project-title {
-    color: rgb(52, 2, 107);
-    font-size: 30px;
-}
-.project-text {
-
-}
-.card-text {
-    text-align: left;
-}
-/* Footer */
-.footer {
-    /* background-color: rgb(169, 185, 248);  */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 80px;
-    margin-top: 6rem;
-    border-radius: 10px;
-    text-align: center;
-}
-.footer a, p {
-    color: rgb(52, 2, 107);
-    font-size: 20px;
-    text-align: center;
-    
-    
-}
-.footer p {
-    font-size: 15px;
-}
